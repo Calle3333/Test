@@ -2,11 +2,10 @@ import os
 import sys
 from time import sleep
 from shutil import copyfile
+from pathlib import Path
 
-os.chdir("..")
-os.chdir("..")
-os.chdir("..")
-os.chdir("Users\CarlJ\Desktop\p5Scripts")
+os.chdir(str(Path.home()))
+os.chdir(os.path.join(os.getcwd(),"Desktop\p5Scripts"))
 
 
 #if in p5Scripts
